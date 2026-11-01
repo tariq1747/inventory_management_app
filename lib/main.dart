@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('Tariq APP');
     return GetMaterialApp(
       title: 'Inventory Management App',
       theme: AppThemes.lightTheme,
