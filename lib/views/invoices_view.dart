@@ -126,6 +126,7 @@ class InvoicesView extends StatelessWidget {
               ],
             ),
           ),
+
           actions: [
             TextButton(onPressed: () => Get.back(), child: Text('Close')),
             TextButton(
